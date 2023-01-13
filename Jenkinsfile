@@ -8,7 +8,7 @@ node {
          stage('Clone Repo') {
             // for display purposes
             // Get some code from a GitHub repository
-            git url: 'https://github.com/snehalN26/CICDPractice.git',
+            git url: 'https://github.com/snehalN26/springDeployment.git',
                 credentialsId: 'SnehalN26',
                 branch: 'main'
          }
